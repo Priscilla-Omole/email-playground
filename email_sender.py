@@ -3,7 +3,8 @@ from email.message import EmailMessage
 import os
 from dotenv import load_dotenv
 
-print(load_dotenv())
+load_dotenv()
+
 EMAIL_ADDRESS = os.getenv('EMAIL_ADDRESS')
 EMAIL_PASSWORD = os.getenv('EMAIL_APP_PASSWORD')
 
